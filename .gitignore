@@ -1,0 +1,41 @@
+# Python virtual environment
+.venv/
+__pycache__/
+*.py[cod]
+
+# Environment variables and secrets
+.env
+
+# MLflow tracking files and databases
+mlruns/
+mlflow.db
+mlflow_backup.db
+
+# Operating system files
+.DS_Store
+Thumbs.db
+# Python environments and cache
+.venv/
+__pycache__/
+*.py[cod]
+
+# Environment variables and secrets
+.env
+.env.*
+
+# MLflow tracking
+mlruns/
+mlflow.db
+mlflow_backup.db
+
+# Model artifacts
+artifacts/
+models/*.joblib
+models/*.pkl
+
+# Operating system files
+.DS_Store
+Thumbs.db
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
